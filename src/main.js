@@ -1,10 +1,5 @@
 console.log('This is working')
 
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
 const text = new SplitType(".heading-xlarge, #text", {
   types: "lines"
 });
