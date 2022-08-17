@@ -1,3 +1,5 @@
+console.log('This is working')
+
 const text = new SplitType('.heading-xlarge, #text', {
   types: 'lines',
 })
